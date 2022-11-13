@@ -44,6 +44,22 @@ let morseAlphabet = [
 	{ letter: "Z", morseCode: "--.." },
 	{ letter: "?", morseCode: "..--.." },
 	{ letter: "!", morseCode: "-.-.--" },
+	{ letter: ".", morseCode: ".-.-.-" },
+	{ letter: ",", morseCode: "--..--" },
+	{ letter: ":", morseCode: "---..." },
+	{ letter: "-", morseCode: "-....-" },
+	{ letter: "_", morseCode: "..--.-" },
+	{ letter: "(", morseCode: "-.--." },
+	{ letter: ")", morseCode: "-.--.-" },
+	{ letter: "Ä", morseCode: ".-.-" },
+	{ letter: "Ö", morseCode: "---." },
+	{ letter: "Ü", morseCode: "..--" },
+	{ letter: "ß", morseCode: "...--.." },
+	{ letter: "@", morseCode: ".--.-." },
+	{ letter: "=", morseCode: "-...-" },
+	{ letter: "+", morseCode: ".-.-." },
+	{ letter: "/", morseCode: "-..-." },
+	{ letter: "'", morseCode: ".----." },
 ];
 
 const morseCode = (event) => {
